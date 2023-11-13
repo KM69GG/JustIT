@@ -1,0 +1,76 @@
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: absolute;
+  animation: move 4s linear infinite;
+}
+
+@keyframes move {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  25% {
+    left: calc(100% - 100px);
+    top: 0;
+  }
+  50% {
+    left: calc(100% - 100px);
+    top: calc(100% - 100px);
+  }
+  75% {
+    left: 0;
+    top: calc(100% - 100px);
+  }
+  100% {
+    left: 0;
+    top: 0;
+  }
+}
+.skew {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  transform: skew(20deg, 20deg);
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.rotate {
+  width: 100px;
+  height: 200px;
+  background-color: blueviolet;
+  margin-top: 200px;
+  margin-left: 200px;
+  transform: rotate(300deg);
+}
+.tshape {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: black;
+  animation: letterT 4s linear infinite;
+}
+
+@keyframes letterT {
+  0% {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  25% {
+    margin-left: 0px;
+    margin-top: 100px;
+  }
+  50% {
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+  75% {
+    margin-left: 100px;
+    margin-top: 0px;
+  }
+  100% {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+}

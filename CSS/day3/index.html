@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to my website</h1>
+    </header>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">My Projects</a>
+      <a href="#">Contact</a>
+    </nav>
+    <div class="div1">
+      <div class="div2">
+        <img src="/images/download.jpeg" alt="" />
+      </div>
+      <div class="div3">
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati
+          error, reiciendis non porro ad recusandae pariatur neque qui modi
+          provident ullam quisquam maiores aut nemo expedita ut odit quasi
+          incidunt. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Eum, dicta? Commodi voluptatum nulla minima, voluptatibus vero quas
+          veritatis nemo suscipit, et itaque in, numquam totam iste nobis quam
+          cupiditate odio.
+        </p>
+      </div>
+    </div>
+
+    <div class="container">
+      <form action="action_page.php">
+        <label for="fname">First Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Your name.."
+        />
+
+        <label for="lname">Last Name</label>
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          placeholder="Your last name.."
+        />
+
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+
+        <label for="subject">Subject</label>
+        <textarea
+          id="subject"
+          name="subject"
+          placeholder="Write something.."
+          style="height: 200px"
+        ></textarea>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>

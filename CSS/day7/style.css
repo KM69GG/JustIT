@@ -1,0 +1,28 @@
+:root {
+  --mainColor: coral;
+  --textColor: black;
+  --borderStyle: solid 10px;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+header {
+  background-color: rgb(130, 153, 255);
+  grid-column: 1/4;
+}
+sidebar {
+  background-color: rgb(227, 255, 127);
+}
+main {
+  background-color: rgb(146, 255, 127);
+}
+aside {
+  background-color: rgb(127, 255, 163);
+}
+footer {
+  background-color: rgb(127, 178, 255);
+  grid-column: 1/4;
+}

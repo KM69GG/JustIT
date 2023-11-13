@@ -1,0 +1,18 @@
+div {
+  width: 400px;
+  height: 400px;
+  background-color: green;
+  border-top: orange dashed 5px;
+  border-bottom: white dotted 5px;
+  border-right: greenyellow solid 5px;
+  border-left: black solid 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background-color: green;
+}
+img {
+  border-radius: 50%;
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Borcelle</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div>
+          <img class="logo" src="logo.png" alt="" />
+        </div>
+        <div class="borcelle">Borcelle</div>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Welcome to Borcelle</h1>
+        <p>Experience the finest dining in town</p>
+        <a href="#menu" class="btn">View Menu</a>
+      </div>
+    </section>
+
+    <section id="menu" class="menu">
+      <div>
+        <h2>Menu</h2>
+        <a href="menu.pdf" class="btn2" download="menu.pdf">Download Menu</a>
+      </div>
+      <div class="menu-item">
+        <img src="salad.jpg" alt="Food Item 1" />
+        <h3>Fig and Arugula Salad</h3>
+        <p>
+          Sweet figs, peppery arugula, and tangy vinaigrette – a delightful
+          harmony of flavors and textures. Perfect as an elegant appetizer or
+          refreshing side.
+        </p>
+        <span>£6.50</span>
+      </div>
+      <div class="menu-item">
+        <img src="steak.jpg" alt="Food Item 2" />
+        <h3>Fillet Steak</h3>
+        <p>
+          Unparalleled tenderness, extraordinary flavor. Our Fillet Steak is the
+          epitome of beef perfection, ensuring a dining experience like no
+          other. Indulge in excellence.
+        </p>
+        <span>£19.99</span>
+      </div>
+      <div class="menu-item">
+        <img src="dessert.jpg" alt="Food Item 3" />
+        <h3>Orange Tart</h3>
+        <p>
+          A citrus burst in every bite. Sweet, zesty, and elegant. The perfect
+          conclusion to your meal.
+        </p>
+        <span>£4.50</span>
+      </div>
+    </section>
+
+    <section class="bottom">
+      <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>
+          We're more than a restaurant; we're a culinary experience. We're
+          dedicated to fresh, seasonal ingredients, creating a menu that caters
+          to your well-being. Our commitment to sustainability and local
+          sourcing ensures every dish is a celebration of quality and conscious
+          dining. Welcome to our world of modern, seasonal, and healthy cuisine.
+        </p>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="opening">
+          <h2>Opening Times</h2>
+          <ul>
+            <li>Monday 12pm-12am</li>
+            <li>Tuesday 12pm-12am</li>
+            <li>Wednesday 12pm-12am</li>
+            <li>Thursday 12pm-12am</li>
+            <li>Friday 12pm-12am</li>
+            <li>Saturday 12pm-12am</li>
+            <li>Sunday 12pm-12am</li>
+          </ul>
+        </div>
+        <div class="contactus">
+          <h2>Contact Us</h2>
+          <br />
+          <form action="" method="post">
+            <input
+              placeholder="Full Name"
+              type="text"
+              id="name"
+              name="name"
+              required
+            /><br /><br />
+            <input
+              placeholder="Email address"
+              type="email"
+              id="email"
+              name="email"
+              required
+            /><br /><br />
+
+            <textarea
+              placeholder="Message"
+              id="message"
+              name="message"
+              rows="4"
+              required
+            ></textarea
+            ><br /><br />
+
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+      </section>
+    </section>
+    <footer>
+      <p>&copy; 2023 Borcelle Restaurant</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,204 @@
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #111;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  margin-left: auto;
+}
+nav li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.borcelle {
+  font-size: 3rem;
+}
+.logo {
+  width: 70px;
+  height: auto;
+}
+
+.hero {
+  background: url(background.webp) center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 6.5rem;
+}
+
+.hero p {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 2.2rem;
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  transition: background-color 0.8s;
+}
+
+.menu {
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu-item {
+  margin: 20px;
+  text-align: center;
+  flex: 1;
+}
+
+.menu-item img {
+  max-width: 100%;
+}
+
+.btn2 {
+  text-decoration: none;
+  color: white;
+}
+.btn2:hover {
+  background-color: white;
+  color: black;
+  transition: background-color 0.8s;
+}
+
+.bottom {
+  display: flex;
+}
+.about {
+  font-size: 1.5rem;
+  word-spacing: 5px;
+  line-height: 50px;
+  background-image: url(restaurant.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  border: solid 2px white;
+  padding: 10px;
+  height: 400px;
+  width: 50%;
+}
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  border: solid 2px white;
+  padding: 10px;
+  height: 400px;
+  width: 50%;
+  flex-direction: row;
+}
+
+.opening,
+.contactus {
+  flex: 1;
+  padding: 10px;
+}
+.contactus {
+  border-left: solid 1px white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .borcelle {
+    font-size: 2rem;
+  }
+
+  .logo {
+    width: 50px;
+  }
+
+  .hero h1 {
+    font-size: 3rem;
+  }
+
+  .hero p {
+    font-size: 1.5rem;
+  }
+
+  .menu {
+    padding: 20px;
+  }
+
+  .menu-item {
+    margin: 10px;
+  }
+
+  .menu-item h3 {
+    font-size: 1.5rem;
+  }
+
+  .menu-item p {
+    font-size: 1rem;
+  }
+
+  .btn,
+  .btn2 {
+    font-size: 1rem;
+  }
+
+  .bottom {
+    flex-direction: column;
+  }
+
+  .about,
+  .contact {
+    width: 100%;
+  }
+}

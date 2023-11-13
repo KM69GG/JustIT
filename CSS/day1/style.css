@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Cantata+One&family=IM+Fell+English+SC&family=Pixelify+Sans&family=Radley&display=swap");
+
+div {
+  height: 300px;
+  width: 300px;
+  background-color: hsla(100, 300, 10, 1);
+}
+h1 {
+  font-size: 50px;
+  color: red;
+  background-color: aqua;
+}
+.lorem1 {
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 20px;
+  color: rgb(128, 0, 255);
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+.lorem2 {
+  font-family: "Pixelify Sans", sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+}
