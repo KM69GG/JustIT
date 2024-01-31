@@ -93,7 +93,7 @@ const App = () => {
           <div className="input-container">
             <input value={value} onChange={(e) => setValue(e.target.value)} />
             <div id="submit" onClick={getMessages}>
-              -
+              SEND
             </div>
           </div>
           <p className="info">
